@@ -2,7 +2,7 @@ import './atom.css'
 
 function Error() {
     return (
-        <div className="App">
+        <div>
             [Error]
         </div>
     );

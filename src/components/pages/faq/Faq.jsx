@@ -2,7 +2,7 @@ import './atom.css'
 
 function FAQPage() {
     return (
-        <div className="App">
+        <div>
             [FAQPage]
         </div>
     );

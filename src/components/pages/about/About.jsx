@@ -2,7 +2,7 @@ import './atom.css'
 
 function About() {
     return (
-        <div className="App">
+        <div>
             [About]
         </div>
     );

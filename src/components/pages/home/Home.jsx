@@ -2,7 +2,7 @@ import './atom.css'
 
 function HomePage() {
     return (
-        <div className="App">
+        <div>
             [HomePage]
         </div>
     );

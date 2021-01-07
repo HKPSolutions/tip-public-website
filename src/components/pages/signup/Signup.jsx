@@ -2,7 +2,7 @@ import './atom.css'
 
 function SignUpPage() {
     return (
-        <div className="App">
+        <div>
             [SignUpPage]
         </div>
     );
