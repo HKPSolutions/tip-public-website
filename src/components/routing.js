@@ -3,7 +3,6 @@ import Home from './pages/home/Home'
 import Signup from './pages/signup/Signup'
 import Faq from './pages/faq/Faq'
 import About from './pages/about/About'
-import Error from './pages/error/Error'
 
 export const routes = [
     {
@@ -14,7 +13,6 @@ export const routes = [
             { path: '/signup', element: <Signup /> },
             { path: '/faq', element: <Faq /> },
             { path: '/about', element: <About /> },
-            { path: '*', element: <Error /> },
         ]
     }
 ]
