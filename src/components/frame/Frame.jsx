@@ -4,7 +4,7 @@ import NavFooter from './nav-footer/NavFooter';
 
 function Frame() {
     return (
-        <div className="App">
+        <div>
             <NavHeader />
             <Outlet />
             <NavFooter />
