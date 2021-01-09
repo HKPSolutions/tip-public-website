@@ -6,6 +6,7 @@
   background-color: white;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .nav-item {
