@@ -2,6 +2,14 @@ import './atom.css'
 import { Link } from 'react-router-dom';
 
 function NavFooter() {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+    };
+
     return (
         <div className = "navfooter">
             <div className = "navfooter_top">
@@ -30,9 +38,11 @@ function NavFooter() {
                 </div>
                 <div className = "navfooter_linktop">
                     <p>Back to the Top</p>
-                    <div className = "navfooter_arrow_container">
-                        <div className = "navfooter_arrow_border">
-                            <div className = "navfooter_arrow"></div>
+                    <div onClick={scrollToTop}>
+                        <div className = "navfooter_arrow_container">
+                            <div className = "navfooter_arrow_border">
+                                <div className = "navfooter_arrow"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
