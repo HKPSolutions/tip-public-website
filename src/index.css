@@ -1,4 +1,21 @@
 body {
   margin: 0;
+  font-family: 'HKGroteskRegular';
+}
+
+.center-text {
+  text-align: center;
+}
+
+button {
+  outline: none;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
 }
 
