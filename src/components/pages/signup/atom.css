@@ -1,16 +1,16 @@
-#main-container {
+#signup-main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#header {
+#signup-header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: #699CFC;
     width: 60%;
 }
-#title {
+#signup-title {
     width: 356px;
     font-family: HK Grotesk;
     font-style: normal;
@@ -18,17 +18,18 @@
     font-size: 70px;
     color: #699CFC;
 }
-#header-info-container {
+#signup-header-info-container {
     width: 50%;
     background-image: url('./assets/Vector\ 2.png');
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 35% 25%;
 }
-#header-info {
+#signup-header-info {
+    margin-left: -2vw;
     margin-top: -15px;
 }
-#message-form {
+#signup-message-form {
     margin-top: 10vh;
     display: flex;
     flex-direction: column;
@@ -37,8 +38,8 @@
     flex-wrap: wrap;
     padding-bottom: 200px;
 }
-input,
-textarea {
+.signup-input,
+.signup-textarea {
     font-size: 30px;
     color: #699CFC;
     border-radius: 10px;
@@ -49,26 +50,30 @@ textarea {
     margin-bottom: 2vh;
     padding-left: 20px;
 }
-textarea {
+.signup-textarea {
     height: 400px;
     padding-top: 20px;
 }
-input:focus,
-textarea:focus {
+.signup-input:focus,
+.signup-textarea:focus {
     outline: none;
 }
-input::placeholder,
-textarea::placeholder {
+.signup-input::placeholder,
+.signup-textarea::placeholder {
     color: #699CFC;
     font-size: 30px;
 }
-#submit-button {
+#signup-submit-button {
     color: white;
     background-color: #699CFC;
     width: 100%;
     transform: scale(1.04);
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+    padding: 20px;
 }
-#submit-button:hover {
+#signup-submit-button:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: cubic-bezier(0.39, 0.575, 0.565, 1);
