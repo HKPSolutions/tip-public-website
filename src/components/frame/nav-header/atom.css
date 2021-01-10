@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+li.li-selected{
+  text-decoration: underline;
+  text-decoration-color: #699CFC;
+}
+
 .nav-item {
   padding: 5px;
 }
@@ -28,9 +33,9 @@
 .nav-link-a {
   text-decoration: none;
   color: black;
-
 }
 
 .nav-link-a:hover {
   text-decoration: underline;
+  text-decoration-color: black;
 }

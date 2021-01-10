@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './atom.css'
 
-import HomeBg from "./assets/homepage-bg.png";
+import HomeBg from "./assets/home-bg.svg";
 
 function HomePage() {
     return (
@@ -10,7 +10,7 @@ function HomePage() {
             <h4 id="home-sub-tagline">No additional payment to interns required.</h4>
             <h4 id="home-deadline-tagline">Request an intern by February 12th for Spring 2021.</h4>
             <hr id="home-separator"></hr>
-            <p id="home-company-name">TIP Solutions</p>
+            <p id="home-company-name">Training and Internship Placement Solutions</p>
             <button id="home-request-intern-btn"><Link to="/signup" className="text-white no-link-btn">Click here to request an intern!</Link></button>
             <div id="home-center-content">
                 <img src={HomeBg} alt="Black wave background" id="home-bg-img"></img>

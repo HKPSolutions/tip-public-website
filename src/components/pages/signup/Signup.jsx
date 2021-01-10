@@ -31,9 +31,9 @@ function SignUpPage() {
     return (
         <div id="signup-main-container">
             <div id="signup-header">
-                <h1 id="signup-title">Contact Us</h1>
+                <h1 id="signup-title">Sign Up</h1>
                 <div id="signup-header-info-container">
-                    <p id="signup-header-info">Please feel free to contact us at info@tipsolutions.com or fill out the below contact form if you have any questions.</p>
+                    <p id="signup-header-info">Please feel free to contact us at <a href="mailto:info@tipsolutions.com">info@tipsolutions.com</a> or fill out the below contact form if you have any questions.</p>
                 </div>
             </div>
             <form onSubmit={onSubmit} id="signup-message-form">

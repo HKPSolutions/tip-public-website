@@ -24,15 +24,17 @@
     font-family: HK Grotesk;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 60px;
     color: #699CFC;
 }
 #signup-header-info-container {
-    width: 50%;
+    width: 80%;
     background-image: url('./assets/Vector\ 2.png');
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 35% 25%;
+    font-size: 25px;
+    font-weight: 100;
 }
 #signup-header-info {
     margin-top: -15px;
