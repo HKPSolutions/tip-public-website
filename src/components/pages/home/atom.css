@@ -1,7 +1,19 @@
-#home-container h3{
+#home-main-tagline{
   font-size: 50px;
-  padding: 40px 0px;
   text-transform: capitalize;
+}
+
+#home-main-brand-name{
+  font-size: 60px;
+  font-weight: bolder;
+  color:  #699CFC;
+  margin: 30px 0px 30px 0px;
+}
+
+#pricing-tagline{
+  color:  #699CFC;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 #home-container h4{
@@ -14,14 +26,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
-  /* line-height: 85px; */
   text-align: center;
   color: #000000;
 }
 
 #home-main-tagline {
-  margin: 0 200px;
-  margin-top: 40px;
+  margin: 20px auto;
+  width: 749px;
 }
 
 #home-sub-tagline {
@@ -44,19 +55,6 @@
   border-top: 7px solid #699CFC;
   width: 900px;
   margin-bottom: 0;
-}
-
-#home-company-name {
-  font-size: 24px;
-  font-weight: normal;
-  text-align: left;
-  margin-top: 0;
-  line-height: 55px;
-  font-weight: bolder;
-  color:  #699CFC;
-
-  display: grid;
-  place-items: center;
 }
 
 #home-request-intern-btn {

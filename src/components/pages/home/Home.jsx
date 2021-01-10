@@ -6,11 +6,12 @@ import HomeBg from "./assets/home-bg.svg";
 function HomePage() {
     return (
         <div id="home-container">
-            <h3 id="home-main-tagline">$1,000 for a 14-week remote software engineering intern.</h3>
-            <h4 id="home-sub-tagline">No additional payment to interns required.</h4>
-            <h4 id="home-deadline-tagline">Request an intern by February 12th for Spring 2021.</h4>
+            <h3 id="home-main-brand-name">Training and Internship Placement Solutions</h3>
+            <h3 id="home-main-tagline">Request a 14-Week Remote Software Engineering Intern </h3>
+            <h4 id="home-sub-tagline">No additional payment to interns required</h4>
+            <h4 id="home-deadline-tagline">Request an intern by February 12th for Spring 2021</h4>
             <hr id="home-separator"></hr>
-            <p id="home-company-name">Training and Internship Placement Solutions</p>
+            <p id="pricing-tagline">One-time $1,000 recruitment fee per intern</p>
             <button id="home-request-intern-btn"><Link to="/signup" className="text-white no-link-btn">Click here to request an intern!</Link></button>
             <div id="home-center-content">
                 <img src={HomeBg} alt="Black wave background" id="home-bg-img"></img>
