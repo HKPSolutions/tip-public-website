@@ -15,8 +15,6 @@ function NavFooter() {
             <div className = "navfooter_top">
                 <div className = "navfooter_info">
                     <h2>TIP Solutions</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className = "navfooter_links">
                     <h3>Sitemap</h3>
