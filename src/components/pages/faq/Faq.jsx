@@ -61,7 +61,7 @@ function FAQPage() {
                 />
                 <Accordion
                     question = "How long is the internship and how many hours per week can I expect from my intern?"
-                    answer = {<p>The internship is 12 weeks running from March 1st to May 28.  Interns are expected to work around 15-20 hours per week.</p>}
+                    answer = {<p>The internship is 13 weeks running from March 1st to May 28.  Interns are expected to work around 15-20 hours per week.</p>}
                 />
                 <Accordion
                     question = "When are Spring 2021 requests due?  What is the matching timeline?"
