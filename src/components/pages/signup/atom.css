@@ -3,6 +3,15 @@
     flex-direction: column;
     align-items: center;
 }
+.alert{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: grid;
+    place-items: center;
+    color: white;
+    border-radius: 10px;
+}
 #signup-header {
     display: flex;
     flex-direction: column;
