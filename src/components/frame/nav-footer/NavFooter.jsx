@@ -34,9 +34,9 @@ function NavFooter() {
                 <div className = "navfooter_subsidiary">
                     <p>@2021 TIP Solutions is a subsidiary of HKP Solutions LLC</p>
                 </div>
-                <div className = "navfooter_linktop">
+                <div className = "navfooter_linktop" onClick={scrollToTop}>
                     <p>Back to the Top</p>
-                    <div onClick={scrollToTop}>
+                    <div>
                         <div className = "navfooter_arrow_container">
                             <div className = "navfooter_arrow_border">
                                 <div className = "navfooter_arrow"></div>

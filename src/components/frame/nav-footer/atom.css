@@ -92,11 +92,14 @@
 
 .navfooter_linktop {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 25px;
     bottom: 10px;
     font-size: 0.8em;
     font-weight: bold;
+    color: gray;
+    filter: grayscale(1);
+    cursor: pointer;
 }
 
 .navfooter_arrow_border {
