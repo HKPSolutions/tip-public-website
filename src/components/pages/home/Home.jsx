@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <div id="home-container">
             <h3 id="home-main-brand-name">Training and Internship Placement Solutions</h3>
-            <h3 id="home-main-tagline">Request a 14-Week Remote Software Engineering Intern </h3>
+            <h3 id="home-main-tagline">Request a 13-Week Remote Software Engineering Intern </h3>
             <h4 id="home-sub-tagline">No additional payment to interns required</h4>
             <h4 id="home-deadline-tagline">Request an intern by February 12th for Spring 2021</h4>
             <hr id="home-separator"></hr>
