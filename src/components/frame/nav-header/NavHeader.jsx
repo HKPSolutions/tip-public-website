@@ -16,7 +16,7 @@ function NavHeader() {
                 <li className={parseLiClass("")}><Link to="/" className="nav-link-a">Home</Link></li>
                 <li className={parseLiClass("about")}><Link to="/about" className="nav-link-a">About</Link></li>
                 <li className={parseLiClass("faq")}><Link to="/faq" className="nav-link-a">FAQ</Link></li>
-                <li className={parseLiClass("signup")}><Link to="/signup" className="nav-link-a">Sign up</Link></li>
+                <li className={parseLiClass("signup")}><Link to="/signup" className="nav-link-a">Sign Up</Link></li>
             </ul>
         </div>
     );

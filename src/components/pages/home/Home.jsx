@@ -29,7 +29,7 @@ function HomePage() {
                         <li>We have trained over <strong>100 interns to-date</strong></li>
                     </ul>
                 </div>
-                <button id="home-get-started-btn"><Link to="/signup" className="text-black no-link-btn">Get Started Today!</Link></button>
+                <button id="home-get-started-btn"><a href="https://forms.gle/Cvb1NzKALvT2QoU36" className="text-black no-link-btn">Get Started Today!</a></button>
             </div>
         </div>
     );
