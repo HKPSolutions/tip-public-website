@@ -1,0 +1,36 @@
+#nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+#nav-title {
+  font-family: 'Comic Neue', cursive;
+  color: #699CFC;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: inline;
+  font-size: 36px;
+}
+
+.nav-link-a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.nav-link-a:hover {
+  text-decoration: underline;
+}
