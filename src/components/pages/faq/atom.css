@@ -6,15 +6,15 @@
 }
 
 .faq h1 {
-    font-size: 3.2em;
+    font-size: 60px;
     margin: 0px;
     color: #689afa;
 }
 
 .faq h2 {
     margin: 0px;
-    font-weight: normal;
-    font-size: 1.3em;
+    font-weight: 300;
+    font-size: 25px;
     padding-bottom: 7px;
     border-bottom: 5px solid #689afa;
     color: #689afa;
