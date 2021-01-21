@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 import './atom.css'
 
-import HomeBg from "./assets/home-bg.svg";
-
 function HomePage() {
     return (
         <div id="home-container">
