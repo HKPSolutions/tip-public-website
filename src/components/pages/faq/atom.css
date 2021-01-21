@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
+.dash{
+    width: 23px;
+    height: 2px;
+    background-color: black;
+}
+
 .faq {
     font-family: "Roboto", sans-serif;
     padding: 10px 30px 10px 30px;
@@ -21,8 +27,8 @@
 }
 
 .faq_buttons {
-    padding: 50px 40px 40px 40px;
-    width: 85%;
+    padding: 50px 0 40px 0;
+    width: min(1000px, 95%);
     margin: auto;
 }
 
@@ -41,11 +47,15 @@
     text-align: left;
 }
 
-.accordion_question p {
+.accordion_question div {
     padding: 0px;
     margin: 0px;
     font-size: 3em;
     font-weight: normal;
+    height: 54px;
+
+    display: grid;
+    place-content: center;
 }
 
 .accordion_answer {

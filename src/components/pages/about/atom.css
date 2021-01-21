@@ -24,7 +24,7 @@
     background: #FFFFFF;
     border: 5px solid #699CFC;
     border-radius: 10px;
-    width: 791px;
+    width: min(791px, 90%);
 }
 #about-body-text-container {
     font-family: HK Grotesk;
