@@ -33,7 +33,7 @@ function SignUpPage() {
             <div id="signup-header">
                 <h1 id="signup-title">Sign Up</h1>
                 <div id="signup-header-info-container">
-                    <p id="signup-header-info"><a href="https://forms.gle/Cvb1NzKALvT2QoU36">Click here to request an intern by February 12th!</a> Please feel free to contact us at <a href="mailto:info@tipsolutions.net">info@tipsolutions.net</a> or fill out the below contact form if you have any questions.</p>
+                    <p id="signup-header-info"><a href="https://forms.gle/Cvb1NzKALvT2QoU36">Click here to request an intern by February 17th!</a> Please feel free to contact us at <a href="mailto:info@tipsolutions.net">info@tipsolutions.net</a> or fill out the below contact form if you have any questions.</p>
                 </div>
             </div>
             <form onSubmit={onSubmit} id="signup-message-form">

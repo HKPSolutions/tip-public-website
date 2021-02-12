@@ -18,11 +18,11 @@ function About() {
                     <p className="about-p">No payment is required until you have interviewed your potential interns yourself and decided on a match. If you are unsatisfied with your matches, you can walk away without paying anything.</p>
                     <p className="about-p">TIP Solutions also offers a 21-day money back guarantee. If you are not completely satisfied with your intern, let us know within the first 21-days at your company and we will offer you a full refund.</p>
                     <h3><u>Details on the Matching Process</u></h3>
-                    <p className="about-p">If you request an intern through our intern request form by February 12th 2021, you will be included in our Spring 2021 intern placement process. No payment is required to submit a request form.</p>
+                    <p className="about-p">If you request an intern through our intern request form by February 17th 2021, you will be included in our Spring 2021 intern placement process. No payment is required to submit a request form.</p>
                     <p className="about-p">Once you submit an intern request form, we will carefully review your request and match you with 2-3 interns who meet the qualifications you are seeking and are interested in working with a business in your sector. You will have the opportunity to speak with each of the potential interns and rank your preferred interns. We will release matches after receiving your ranking, and if you are satisfied with your intern, at that time we request our $1,000 fee per intern accepted. Once we receive your payment, the intern will be ready to begin working for your company.</p>
                     <p className="about-p">Our timeline is as follows:</p>
                     <div id="about-dates">
-                        <p id="about-dates-p">February 12:  Requests close for Spring 2021 interns <br></br>
+                        <p id="about-dates-p">February 17:  Requests close for Spring 2021 interns <br></br>
                             Week of February 15:  Interviews with 2-3 potential interns<br></br>
                             February 22:  Intern matches released<br></br>
                             February 26:  Payment due <br></br>
